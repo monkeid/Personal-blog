@@ -1,0 +1,38 @@
+*, body{
+    font-family: 'Basic', sans-serif;
+}
+
+:root {
+    --bg-purple: #8C32F0;
+    --bg-pink: #E73587;
+    --bg-white: #fff;
+    --bg-navy: #020E35;
+}
+
+.bg-gradient-purple{
+    background: linear-gradient(270deg, var(--bg-purple) 0%, var(--bg-pink) 100%);
+    border: 0;
+    color: var(--bg-white);
+}
+
+.bg-gradient-purple:hover{
+    background: linear-gradient(270deg, var(--bg-pink) 0%, var(--bg-purple) 100%);
+    border: 0;
+    color: var(--bg-white);
+}
+
+.bg-navy{
+    background: var(--bg-navy);
+}
+.text-navy{
+    color: var(--bg-navy);
+}
+
+.text-xl{
+    font-size: 4rem;
+}
+
+.btn-header{
+    /* position: relative; */
+    top: -25px;
+}

@@ -1,0 +1,55 @@
+
+/* mobile */
+@media (max-width: 575.98px) {
+    /* .card {
+        height: 20rem;
+        width: 100%;
+    } */
+    .height-100fw{
+        height: fit-content;
+    }
+    
+    .height-50fw{
+        height: fit-content;
+    }
+    .text-2xl{
+        color: var(--bg-navy);
+        font-size: 2.8rem;
+    }
+}
+
+/* mobile 2 */
+@media (max-width: 767.98px) {
+    /* .card {
+        height: 20rem;
+        width: 100%;
+    } */
+
+    .height-100fw{
+        height: fit-content;
+    }
+    
+    .height-50fw{
+        height: fit-content;
+    }
+    .text-2xl{
+        color: var(--bg-navy);
+        font-size: 3rem;
+    }
+
+}
+
+@media (max-width: 991.98px) {
+    
+    .height-100fw{
+        height: fit-content;
+    }
+    
+    .height-50fw{
+        height: fit-content;
+    }
+    .text-2xl{
+        color: var(--bg-navy);
+        font-size: 3.5rem;
+    }
+}
